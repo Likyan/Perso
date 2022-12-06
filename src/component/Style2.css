@@ -1,0 +1,26 @@
+.demo1{
+    border: 5px inset burlywood;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    line-height: 120px;
+    background-color: darkolivegreen;
+}
+
+.demo2{
+    border: 5px outset grey;
+    height: 500px;
+    margin: 20px;
+    text-align: center;
+    line-height: 500px;
+    background-color: wheat;
+}
+
+.demo3{
+    border: 5px inset brown;
+    height: 150px;
+    margin: 20px;
+    text-align: center;
+    line-height: 130px;
+    background-color: teal;
+}

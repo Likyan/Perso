@@ -1,0 +1,11 @@
+.boy{
+    display: flex;
+    padding: 0px;
+}
+.boy>div{
+    height: 300px;
+}
+.box1{
+    background-color: brown;
+}
+

@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+ /*nav bar*/
+.flex{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 85px;
+    align-items: center;
+    /* justify-content: center;
+    align-content: center;
+     */
+    border: 1px solid lightgray;
+}
+.dog{
+    width: 20%;
+    /* align-items: center;
+    align-content: center; 
+    justify-content: center; */
+    padding: 10px;
+}
+.var{
+    width: 60%;
+    
+}
+.var a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
+    color: rgb(61, 60, 60);
+    margin-left: 20px;
+}
+.var a:active{
+    color: black;
+}
+.jan{
+    width: 20px;
+    /* align-items: none !important;
+    align-content: none !important; 
+    justify-content: none !important; */
+    
+}
+.jan p{
+    background-color: lightgray;
+    color: rgb(61, 60, 60);
+    margin: 15px 15px 15px 75px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    width: 120px;
+    border-radius: 25px;
+}
+/*nav bar*//*nav bar*/
+
+/*center 1 bar*/
+.flex2{
+    display: flex;
+    flex-direction: column;
+
+}
+.vector{
+    border: 1px none lightgrey;
+    width: 100%;
+    height: 200px;
+    padding: 90px 50px 5px 450px;
+}
+.vector img{
+    padding: 15px;
+}
+/*center 1 bar*/
+
+/*center 2 bar*/
+.hound{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 5px 15px 60px;
+    
+}
+.hound div{
+    
+    padding: 10px 20px 10px 20px;
+    margin: 2px 10px 2px 10px;
+}
+/*center 2 bar*/
+
+/*Center3 (image)*/
+.hounds{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 10px 85px 40px 100px;
+    
+}
+.hounds div{
+    border: 1px none black;
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+/*Center3 (image)*/
+
+/*Center4 (DogHub)*/
+.popular{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 30px 0px 30px;
+}
+.popular div{
+    border: 1px none black;
+    height: 250px;
+    margin: 10px;
+}
+.analysis a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(114, 114, 189);
+}
+.mail{
+    color: rgb(127, 127, 153);
+    border: 1px solid rgb(223, 223, 243);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 45px 0px 0px 0px;
+}
+/*Center4 (DogHub)*/
+
+/*Footer*/
+.english{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 30px 0px 30px;
+    
+}
+.english div{
+    border: 1px none black;
+    height: 100px;
+    margin: 10px 10px;
+    color: rgb(127, 127, 153);
+    padding: 30px 10px;
+}
+.icofont-twitter{
+    margin: 70px 20px 20px 20px;
+    color: black;
+}
+.icofont-twitter{
+    margin: 70px 20px 20px 20px;
+    
+}
+/*Footer*/
